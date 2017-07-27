@@ -1,0 +1,11 @@
+committing without using the weird editor:
+	git commit -m "this is the message"
+committing with using the weird editor
+	git add .    (the dot means adding all files in directory for the commit)
+	git commit
+		(this opens the weird editor:
+			type i in order to actually write the message
+			press ESC after finishing the message
+			type :wq 
+			enter - then the weird editor quits)
+	git push
